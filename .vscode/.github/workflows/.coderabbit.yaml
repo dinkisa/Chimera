@@ -1,0 +1,10 @@
+reviewers:  
+  - name: Spec Alignment Checker  
+    description: Checks if the code aligns with the specifications.  
+    checks:  
+      - type: spec_alignment  
+        specs_path: specs/  
+  - name: Security Vulnerability Scanner  
+    description: Scans the code for potential security vulnerabilities.  
+    checks:  
+      - type: security_scan
